@@ -152,7 +152,6 @@ jobs:
             %0A💬 Message: <b>${{ github.event.head_commit.message }}</b>
             %0ACek disini: $CURRENT_REPO
             "
----- script sebelumnya ---
 
   deploy:
     name: Deploy
