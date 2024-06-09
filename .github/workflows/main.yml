@@ -142,7 +142,7 @@ jobs:
           else
             STATUS="CI/CD Pipeline <b>Failure ❌</b>"
           fi
-          curl --request POST ${{ secrets.TELEGRAM_BOT }} \
+          curl --request POST ${{ secrets.TELE_BOT }} \
             -d parse_mode="HTML" \
             -d chat_id="${{ secrets.TELEGRAM_CHANNEL }}" \
             -d text="
